@@ -1,0 +1,201 @@
+/* General styles */
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+    background: linear-gradient(120deg, #a8e063, #56ab2f);
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 1000;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.navbar .logo {
+    font-size: 28px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+}
+
+.nav-links a:hover {
+    color: #a8e063;
+}
+
+#home {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: url(sunflowers-7112463.jpg) no-repeat center center/cover;
+    position: relative;
+    background-blend-mode: overlay;
+    color: #fff;
+}
+
+#home .content h1 {
+    font-size: 60px;
+    margin: 0;
+}
+
+#home .content h2 {
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+.questions p {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+#about-us {
+    padding: 50px 20px;
+    background-color: #fff;
+    text-align: center;
+}
+
+#about-us h2 {
+    font-size: 32px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+#about-us p {
+    font-size: 18px;
+    color: #666;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+#services {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 0;
+    background-color: #f7f7f7;
+}
+
+.service-box {
+    width: 30%;
+    padding: 20px;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.service-box:hover {
+    transform: translateY(-10px);
+}
+
+.service-box h3 {
+    font-size: 24px;
+    color: #56ab2f;
+    margin-bottom: 15px;
+}
+
+.service-box p {
+    font-size: 16px;
+    color: #666;
+}
+#contact-us {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+#contact-us h2 {
+    font-size: 32px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.contact-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.contact-form,
+.contact-info {
+    width: 48%;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form h3,
+.contact-info h3 {
+    font-size: 24px;
+    color: #56ab2f;
+    margin-bottom: 15px;
+}
+
+.contact-form label {
+    display: block;
+    font-size: 16px;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.contact-form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.contact-form .btn {
+    background-color: #56ab2f;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact-form .btn:hover {
+    background-color: #4a9a26;
+}
+
+.contact-info p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.contact-info img {
+    max-width: 100%;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
